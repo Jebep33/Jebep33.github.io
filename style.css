@@ -1,11 +1,11 @@
 @font-face {
 	font-family: Dominican;
-	src: url(Dominica.ttf);
+	src: url(fonts/Dominica.ttf);
 	
 }
 
 body{
-background: url("Map-Background.png") repeat;
+background: url("images/Map-Background.png") repeat;
 }
 
 
@@ -42,7 +42,7 @@ h1, h2, h3{
 
 .parchment{
 	width: 1157px;
-	background: url("parchment.png");
+	background: url("images/parchment.png");
 	border: 5px solid black;
 }
 
