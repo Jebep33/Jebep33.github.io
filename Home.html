@@ -3,12 +3,13 @@
 <head>
 	<title>Synkrousi Home</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="icons/logo.png">
 </head>
 
 <body>
 <div class="parent">
 <div class="header">
-<span><img src="images/Synkrousi Wiki.png" width="286px" height="63px" alt="Synkrousi Logo"></span>
+<span><a href="Home.html"><img src="images/Synkrousi Wiki.png" width="286px" height="63px" alt="Synkrousi Logo"></span></a>
 <div class="navigation">
 	<ul style="padding: 0">
 		
@@ -23,12 +24,21 @@
 
 
 	<div class="parchment">
-		<h1 style="margin:20px 0px 13px 65px">Welcome to Synkrousi</h1>
-		<div class="content">
-		<img src="images/Map.jpg" width="685px" height="513px" alt="Synkrousi Map">
-			<div class="p"><p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		<div class="home-content-wrap">
+			<button id="edit-welcome"><img src="icons/edit.png" width="10px" height="10px" alt="edit"></button>
+			<h1 style="margin:20px 0px 13px 0">Welcome to Synkrousi</h1>
+				<div class="home-content">
+					<img src="images/Map.jpg" width="685px" height="513px" alt="Synkrousi Map" align="left">
+				<div class="p" contenteditable=false>
+					<p id="welcome">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button id="save">Save</button>
+				</div>
+			</div>
 		</div>
 	</div>
+	
+	<script src="myScript.js"></script>
+	
 </body>
 
 
