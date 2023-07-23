@@ -1,0 +1,68 @@
+@font-face {
+	font-family: Dominican;
+	src: url(Dominica.ttf);
+	
+}
+
+body{
+background: url("Map-Background.png") repeat;
+}
+
+
+.header{
+	width:1060.55px;
+	height: 63px;
+	margin-bottom: 13px;
+	display: flex;
+	vertical-align: middle;
+}
+
+.navigation{
+	width: 735px;
+	height: 63px;
+	margin:auto 0 auto 0;
+	
+}
+
+.navigation a{
+text-decoration: none;
+color: black;
+font-family: Dominican;
+}
+
+.navigation li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 78px;
+}
+
+h1, h2, h3{
+	font-family: Dominican;
+}
+
+.parchment{
+	width: 1157px;
+	background: url("parchment.png");
+	border: 5px solid black;
+}
+
+.content{
+	width: 1025px;
+	margin: 0 auto 65px auto;
+}
+
+.parent{
+	width: 1157px;
+	height:769px;
+	margin: auto;
+}
+
+.p{
+	width:292px;
+	margin:0 0 0 auto;
+}
+
+.navigation a:active,.navigation a:hover{
+text-decoration: underline;
+color: #800000;
+}
