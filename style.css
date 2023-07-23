@@ -36,19 +36,67 @@ font-family: Dominican;
 	padding-left: 78px;
 }
 
-h1, h2, h3{
+h1, h2, h3, h6{
 	font-family: Dominican;
 }
 
 .parchment{
-	width: 1157px;
-	background: url("images/Parchment.png");
+	max-width: 1157px;
+	background: url("images/parchment.png");
 	border: 5px solid black;
 }
 
-.content{
+.home-content-wrap,.about-content-wrap,.campaign-content,.people-content{
 	width: 1025px;
 	margin: 0 auto 65px auto;
+}
+
+.home-content,.about-content,.campaign-date,.main-characters{
+	display: flex;
+}
+
+.home-content-wrap{
+	position:relative;
+}
+
+.home-content-wrap #edit-welcome{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.home-content .p{
+	position: relative;
+}
+
+.home-content #save{
+	position: absolute;
+	display:none;
+	bottom: 10px;
+	left: 5px;
+}
+
+.about-content{
+	margin:0 0 30px 0;
+}
+
+.campaign-date{
+	position:relative;
+}
+
+.campaign-date p{
+	position: absolute;
+	bottom:5px;
+	left:94.625px;
+	font-size: 12px;
+}
+
+.main-characters{
+	justify-content: center;
+}
+
+hr{
+	border: 1px solid black;
 }
 
 .parent{
@@ -58,11 +106,48 @@ h1, h2, h3{
 }
 
 .p{
+	line-height: 24px;
+
+}
+.home-content .p{
 	width:292px;
 	margin:0 0 0 auto;
 }
 
-.navigation a:active,.navigation a:hover{
+.about-content .p{
+	width:649px;
+	margin:0 32px 0 0;
+}
+
+.char h6{
+	text-align: center;
+	margin:3px auto 0 auto;
+}
+
+.char img{
+	border: 5px solid #CC9E06;
+}
+
+.char{
+	padding:0 20px;
+	max-height:172.2px;
+	width:199.6px;
+}
+
+p{
+	margin: 0;
+}
+
+.navigation a:active{
 text-decoration: underline;
 color: #800000;
+}
+
+.navigation a:hover{
+	color:#83504F;
+}
+
+.char img:hover{
+	width:150px;
+	height:150px;
 }
