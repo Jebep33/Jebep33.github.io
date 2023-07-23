@@ -1,8 +1,8 @@
-windows.onload = () => {
+/*windows.onload = () => {
 	if(localStorage.getItem('content')) {
 		document.querySelector('.content').innerText = localStorage.getItem('content');
   }
-}
+}*/
 
 
 let editBtn = document.querySelector("#edit-welcome");
@@ -32,8 +32,8 @@ saveBtn.addEventListener('click', () => {
 	
 	console.log(text);
 	
-	if(content.contentEditable === 'false') {
+	/*if(content.contentEditable === 'false') {
   	localStorage.setItem('content',content.innerText);
-  }
+  }*/
 	
 });
